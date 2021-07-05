@@ -3,8 +3,9 @@ public class DemoArr {
         int sample [] = new int [10];
 
         int x = 1;
+        int y = 0;
 
-        if (x==1) System.out.println("Работает");
+        if (x == 1 && y == 0) System.out.println("Работает");
 
         for (int i = 0; i < 10; i ++) {
             sample[i] = i + 10;
